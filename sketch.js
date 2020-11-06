@@ -24,17 +24,21 @@ function setup() {
 	helicopterSprite.addImage(helicopterIMG)
 	helicopterSprite.scale = 0.6
 
-	groundSprite1 = createSprite(320, 675, 20, 100);
+	groundSprite1 = createSprite(270, 645, 20, 100);
 
 	groundSprite1.shapeColor = color(255, 0, 0)
 
-	groundSprite2 = createSprite(370, 695, 100, 20);
+	groundSprite2 = createSprite(370, 669, 200, 20);
 
 	groundSprite2.shapeColor = color(255, 0, 0)
 
-	groundSprite3 = createSprite(420, 675, 20, 100);
+	groundSprite3 = createSprite(470, 645, 20, 100);
 
 	groundSprite3.shapeColor = color(255, 0, 0)
+
+	groundSprite4 = createSprite(400, 690, 800, 25);
+
+	groundSprite4.shapeColor = color(255, 255, 0)
 
 
 	engine = Engine.create();
